@@ -27,9 +27,9 @@
     </div>
     <script type="text/javascript">
       var oktaConfig = {
-        issuer: "https://anywhereb2c.oktapreview.com/oauth2/aus44bzdrhmwooJiM1d7",
+        issuer: "",
         redirectUri: 'http://localhost/simple-b2c-spa/index.php',
-        clientId: "0oa5m0fx1vEEkp0fb1d7",
+        clientId: "",
         useClassicEngine: false
       }
       // Search for URL Parameters to see if a user is being routed to the application to recover password
