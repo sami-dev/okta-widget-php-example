@@ -27,10 +27,10 @@
     </div>
     <script type="text/javascript">
       var oktaConfig = {
-        issuer: "",
-        redirectUri: 'http://localhost/simple-b2c-spa/index.php',
-        clientId: "",
-        useClassicEngine: false
+        issuer: "https://realogy.oktapreview.com/oauth2/ausdtpyw647fbrcPi0h7",
+        redirectUri: 'https://dev-okta-widget-example.azurewebsites.net/index.php',
+        clientId: "0oa1t6rycn9mQgyOF0h8",
+        useClassicEngine: true
       }
       // Search for URL Parameters to see if a user is being routed to the application to recover password
       var searchParams = new URL(window.location.href).searchParams;
